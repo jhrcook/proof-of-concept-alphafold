@@ -16,3 +16,8 @@ jupyter serverextension enable --py jupyterlab_code_formatter
 
 # Install HHH-suite3
 conda install -c conda-forge -c bioconda hhsuite
+# WARNING: Downloading this db takes about 2.5 days.
+#   I downloaded it to a separate database directory to keep it separate
+#   from this project.
+# curl -o uniclust30_2018_08_hhsuite.tar.gz http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz
+# tar xzvf uniclust30_2018_08_hhsuite.tar.gz
