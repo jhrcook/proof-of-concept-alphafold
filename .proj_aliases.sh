@@ -9,3 +9,5 @@ alias pocaf_env="conda activate pocaf && bash .proj_aliases.sh"
 alias pocaf_jl="jupyter lab --port=7016 --browser='none'"
 alias pocaf_sshlab='ssh -N -L 7016:127.0.0.1:7016'
 
+# alias pocaf_write_env="conda env export --from-history > environment.yml"
+alias pocaf_write_env="conda env export > environment.yml"
